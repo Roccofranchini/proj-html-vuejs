@@ -44,35 +44,30 @@ header {
 	height: 70px;
 	box-shadow: 0 3px rgba(236, 236, 236, 0.349);
 
-	#nav .container {
-		max-width: 1000px;
-		margin: auto;
-
-		img {
-			height: 20px;
+	img {
+		height: 20px;
+	}
+	li {
+		font-size: 13px;
+		font-weight: 500;
+	}
+	.searchbar {
+		position: relative;
+		input {
+			background-color: #f5f5f5;
+			border: 0;
+			border-radius: 5px;
+			font-size: 12px;
+			padding: 10px 16px;
 		}
-		li {
-			font-size: 13px;
-			font-weight: 500;
+		i {
+			font-size: 14px;
 		}
-		.searchbar {
-			position: relative;
-			input {
-				background-color: #f5f5f5;
-				border: 0;
-				border-radius: 5px;
-				font-size: 12px;
-				padding: 10px 16px;
-			}
-			i {
-				font-size: 14px;
-			}
-			.fa-search {
-				color: $my-green;
-				position: absolute;
-				left: 180px;
-				top: 10px;
-			}
+		.fa-search {
+			color: $my-green;
+			position: absolute;
+			left: 180px;
+			top: 10px;
 		}
 	}
 }
