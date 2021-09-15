@@ -53,6 +53,7 @@ header {
 		}
 		li {
 			font-size: 13px;
+			font-weight: 500;
 		}
 		.searchbar {
 			position: relative;
