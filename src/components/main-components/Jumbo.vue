@@ -53,6 +53,28 @@
 					</div>
 				</div>
 			</div>
+			<div class="row my-5 partners-logo">
+				<div class="col-1"></div>
+				<div class="col d-flex align-items-center">
+					<img src="..\..\assets\img\client-logo-01.png" alt="" />
+				</div>
+				<div class="col d-flex align-items-center">
+					<img src="..\..\assets\img\client-logo-02.png" alt="" />
+				</div>
+				<div class="col d-flex align-items-center">
+					<img src="..\..\assets\img\client-logo-03.png" alt="" />
+				</div>
+				<div class="col d-flex align-items-center">
+					<img src="..\..\assets\img\client-logo-04.png" alt="" />
+				</div>
+				<div class="col d-flex align-items-center">
+					<img src="..\..\assets\img\client-logo-05.png" alt="" />
+				</div>
+				<div class="col d-flex align-items-center">
+					<img src="..\..\assets\img\client-logo-06.png" alt="" />
+				</div>
+				<div class="col-1"></div>
+			</div>
 		</div>
 	</div>
 </template>
@@ -124,7 +146,7 @@ export default {
 			.img-2 {
 				position: absolute;
 				bottom: 100px;
-				left: -40px;
+				left: -70px;
 				z-index: -1;
 				img {
 					height: 100px;
@@ -137,6 +159,12 @@ export default {
 				right: -100px;
 				top: 100px;
 			}
+		}
+
+		.partners-logo img {
+			max-width: 80px;
+			max-height: 60px;
+			filter: grayscale(100%) brightness(140%) contrast(100%);
 		}
 	}
 }

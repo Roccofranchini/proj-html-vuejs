@@ -42,7 +42,7 @@ export default {
 
 header {
 	height: 70px;
-	box-shadow: 0 2px rgba(211, 211, 211, 0.349);
+	box-shadow: 0 3px rgba(236, 236, 236, 0.349);
 
 	#nav .container {
 		max-width: 1000px;
