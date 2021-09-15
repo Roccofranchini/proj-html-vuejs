@@ -24,4 +24,5 @@ export default {
 <style lang="scss">
 @import "~bootstrap/scss/bootstrap.scss";
 @import "@/assets/scss/style.scss";
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap");
 </style>
