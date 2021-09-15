@@ -17,3 +17,13 @@ li {
 .my-gray {
 	color: $my-gray;
 }
+
+.button-green {
+	border: 0;
+	font-size: 12px;
+	font-weight: 600;
+	color: white;
+	background-color: $my-green;
+	border-radius: 5px;
+	padding: 12px 30px;
+}

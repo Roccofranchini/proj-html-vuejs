@@ -12,6 +12,13 @@
 					:course="course"
 				/>
 			</div>
+			<div class="row justify-content-center">
+				<div class="col-8 text-center">
+					<button class="button-green my-5">
+						View all courses <i class="fas fa-arrow-right"></i>
+					</button>
+				</div>
+			</div>
 		</div>
 	</section>
 </template>
@@ -90,6 +97,10 @@ export default {
 	}
 	.courses-title {
 		font-weight: 700;
+	}
+
+	button {
+		padding: 13px 70px;
 	}
 }
 </style>

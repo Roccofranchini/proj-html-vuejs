@@ -9,7 +9,7 @@
 							Learning is a life-long journey that in fact we never find the
 							terminate stop. Stop searching, enjoiy the process.
 						</p>
-						<button class="mt-3 mb-4">
+						<button class="mt-3 mb-4 button-green">
 							<i class="fas fa-download pe-2"></i> Download free guide
 						</button>
 						<p>
@@ -111,15 +111,6 @@ export default {
 					color: grey;
 				}
 			}
-		}
-		button {
-			border: 0;
-			font-size: 12px;
-			font-weight: 600;
-			color: white;
-			background-color: $my-green;
-			border-radius: 5px;
-			padding: 12px 30px;
 		}
 	}
 
