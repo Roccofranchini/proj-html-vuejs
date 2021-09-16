@@ -9,7 +9,7 @@
 							Learning is a life-long journey that in fact we never find the
 							terminate stop. Stop searching, enjoiy the process.
 						</p>
-						<button class="mt-3 mb-4 button-green">
+						<button class="mt-3 mb-4 button-primary">
 							<i class="fas fa-download pe-2"></i> Download free guide
 						</button>
 						<p>
@@ -101,7 +101,7 @@ export default {
 			line-height: 1.8;
 
 			span {
-				color: $my-green;
+				color: $my-primary;
 				position: relative;
 				hr {
 					width: 100%;

@@ -5,7 +5,7 @@
 				GREAT WORDS ABOUT MAXCOACH
 			</p>
 			<h3 class="my-blue learners-title">
-				Our <span class="my-green">top learners'</span> verbatim
+				Our <span class="my-primary">top learners'</span> verbatim
 			</h3>
 		</div>
 		<div class="fake-container mx-5">

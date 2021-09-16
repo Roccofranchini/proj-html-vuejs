@@ -64,7 +64,7 @@ header {
 			font-size: 14px;
 		}
 		.fa-search {
-			color: $my-green;
+			color: $my-primary;
 			position: absolute;
 			left: 180px;
 			top: 10px;

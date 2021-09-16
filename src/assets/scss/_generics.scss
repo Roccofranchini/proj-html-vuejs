@@ -10,8 +10,8 @@ li {
 	color: $my-blue;
 }
 
-.my-green {
-	color: $my-green;
+.my-primary {
+	color: $my-primary;
 }
 
 .my-gray {
@@ -22,12 +22,12 @@ li {
 	color: $my-second-blue;
 }
 
-.button-green {
+.button-primary {
 	border: 0;
 	font-size: 12px;
 	font-weight: 600;
 	color: white;
-	background-color: $my-green;
+	background-color: $my-primary;
 	border-radius: 5px;
 	padding: 12px 30px;
 }

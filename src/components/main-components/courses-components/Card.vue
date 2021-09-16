@@ -39,7 +39,7 @@ export default {
 @import "@/assets/scss/_variables.scss";
 
 p {
-	color: $my-green;
+	color: $my-primary;
 	font-size: 25px;
 	font-weight: bold;
 }

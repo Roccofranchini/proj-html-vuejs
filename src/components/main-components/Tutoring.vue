@@ -7,7 +7,7 @@
 						MAXCOACH AVAILABLE COURSES
 					</p>
 					<h3 class="my-blue tutoring-title">
-						Acces <span class="my-green">Smart Tutoring</span> Program for
+						Acces <span class="my-primary">Smart Tutoring</span> Program for
 						Benefits.
 					</h3>
 				</div>
@@ -69,7 +69,7 @@
 							<h4 class="title my-blue mt-3 mb-0">
 								Enjoy Our
 							</h4>
-							<h4 class="title-green my-green mb-4">
+							<h4 class="title-primary my-primary mb-4">
 								Companionship
 							</h4>
 							<p class="my-gray pe-5 me-2">
@@ -77,7 +77,7 @@
 								and mentoring portal. Seek for dome hidden hints of early-bird
 								rewards as well.
 							</p>
-							<span class="my-green"
+							<span class="my-primary"
 								>Download free guidebook <i class="fas fa-arrow-right"></i>
 								<hr class="my-gray"
 							/></span>
@@ -167,7 +167,7 @@ export default {
 			font-size: 38px;
 		}
 
-		.title-green {
+		.title-primary {
 			font-size: 38px;
 			font-weight: 400;
 		}
