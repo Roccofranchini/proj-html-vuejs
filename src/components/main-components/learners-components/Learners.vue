@@ -1,10 +1,10 @@
 <template>
-	<div id="learners" class="py-5">
+	<div id="learners" class="pt-5">
 		<div class="text-center pb-4">
-			<p class="my-gray learners-subtitle mb-2">
+			<p class="my-gray subtitle mb-2">
 				GREAT WORDS ABOUT MAXCOACH
 			</p>
-			<h3 class="my-blue learners-title">
+			<h3 class="my-blue title">
 				Our <span class="my-primary">top learners'</span> verbatim
 			</h3>
 		</div>
@@ -101,19 +101,6 @@ export default {
 <style scoped lang="scss">
 #learners {
 	background-color: #f8f8f8;
-
-	.learners-subtitle {
-		font-size: 11px;
-		font-weight: 500;
-		letter-spacing: 2px;
-	}
-	.learners-title {
-		font-weight: 700;
-
-		span {
-			font-weight: 500;
-		}
-	}
 
 	.certification-text {
 		p {

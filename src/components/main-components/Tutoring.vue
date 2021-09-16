@@ -20,7 +20,7 @@
 							study schedule and timetable based on preferences.
 						</p>
 						<span class="my-second-blue"
-							>Start here <i class="fas fa-arrow-right"></i
+							>Start here <i class="fas fa-long-arrow-alt-right"></i
 						></span>
 					</div>
 					<div class="col tutor-card">
@@ -31,7 +31,7 @@
 							device and revise lessons on the way.
 						</p>
 						<span class="my-second-blue"
-							>Get Free Quote <i class="fas fa-arrow-right"></i
+							>Get Free Quote <i class="fas fa-long-arrow-alt-right"></i
 						></span>
 					</div>
 					<div class="col tutor-card">
@@ -42,7 +42,7 @@
 							slides. doc, prints, books and applications.
 						</p>
 						<span class="my-second-blue"
-							>Start now <i class="fas fa-arrow-right"></i
+							>Start now <i class="fas fa-long-arrow-alt-right"></i
 						></span>
 					</div>
 				</div>
@@ -78,7 +78,8 @@
 								rewards as well.
 							</p>
 							<span class="my-primary"
-								>Download free guidebook <i class="fas fa-arrow-right"></i>
+								>Download free guidebook
+								<i class="fas fa-long-arrow-alt-right"></i>
 								<hr class="my-gray"
 							/></span>
 						</div>

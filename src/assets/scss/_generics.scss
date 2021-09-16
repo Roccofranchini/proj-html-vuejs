@@ -22,6 +22,20 @@ li {
 	color: $my-second-blue;
 }
 
+.title {
+	font-weight: 700;
+
+	span {
+		font-weight: 500;
+	}
+}
+
+.subtitle {
+	font-size: 11px;
+	font-weight: 500;
+	letter-spacing: 2px;
+}
+
 .button-primary {
 	border: 0;
 	font-size: 12px;
