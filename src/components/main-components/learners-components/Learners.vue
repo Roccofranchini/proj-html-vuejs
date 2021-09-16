@@ -17,6 +17,39 @@
 				/>
 			</div>
 		</div>
+		<div class="container my-5">
+			<div class="row">
+				<div class="col-2 d-flex align-items-center">
+					<img
+						class="py-5"
+						src="./../../../assets/img/maxcoach-shape-01.png"
+						alt=""
+					/>
+				</div>
+				<div class="col-8">
+					<div
+						class="certification-text d-flex flex-column align-items-center mt-5"
+					>
+						<p class="my-blue mb-1">
+							Start today for getting<span class="my-primary">
+								Online Certification</span
+							>
+						</p>
+						<h4 class="my-blue py-4">
+							You can be your own guidinig star whit our help!
+						</h4>
+						<button class="button-primary px-5">Get started now</button>
+					</div>
+				</div>
+				<div class="col-2 d-flex align-items-end">
+					<img
+						class="h-75 pt-5"
+						src="./../../../assets/img/maxcoach-shape-02.png"
+						alt=""
+					/>
+				</div>
+			</div>
+		</div>
 	</div>
 </template>
 
@@ -76,6 +109,20 @@ export default {
 
 		span {
 			font-weight: 500;
+		}
+	}
+
+	.certification-text {
+		p {
+			font-weight: 600;
+			font-size: 18px;
+		}
+		span {
+			font-weight: 500;
+		}
+
+		h4 {
+			font-weight: 700;
 		}
 	}
 }
