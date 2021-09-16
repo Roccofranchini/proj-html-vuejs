@@ -14,7 +14,7 @@
 			</div>
 			<div class="row justify-content-center">
 				<div class="col-8 text-center">
-					<button class="button-green my-5">
+					<button class="button-green mt-5">
 						View all courses <i class="fas fa-arrow-right"></i>
 					</button>
 				</div>
