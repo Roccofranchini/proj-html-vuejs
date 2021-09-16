@@ -1,7 +1,7 @@
 <template>
 	<div class="col-4">
 		<div id="student" class="p-5 mx-2">
-			<h5 class="my-blue student-title mb-3">{{ student.title }}</h5>
+			<h5 class="my-blue student-title mb-3 pe-3">{{ student.title }}</h5>
 			<p class="my-gray student-text">{{ student.text }}</p>
 			<div class="row">
 				<div class="col-2">

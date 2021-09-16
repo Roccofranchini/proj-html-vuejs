@@ -50,14 +50,20 @@
 				</div>
 			</div>
 		</div>
+		<Stats />
 	</div>
 </template>
 
 <script>
 import Student from "./Student.vue";
+import Stats from "./Stats.vue";
 
 export default {
 	name: "Learners",
+	components: {
+		Student,
+		Stats,
+	},
 	data() {
 		return {
 			students: [
@@ -65,7 +71,7 @@ export default {
 					name: "FLORENCE  THEMES",
 					profession: "Multimedia Admin",
 					img: "testimonial-avata-03",
-					title: "it's a choiche for people with a special needs",
+					title: "It's a choiche for people with a special needs",
 					text:
 						"I'm a very strict person so i require everything to be organized and neat. then, i'll be able to makw thingd right and shine. MaxCoach guys just got me. ",
 				},
@@ -89,15 +95,12 @@ export default {
 			],
 		};
 	},
-	components: {
-		Student,
-	},
 };
 </script>
 
 <style scoped lang="scss">
 #learners {
-	background-color: #f5f7fa;
+	background-color: #f8f8f8;
 
 	.learners-subtitle {
 		font-size: 11px;

@@ -24,8 +24,8 @@ export default {
 <style lang="scss">
 @import "~bootstrap/scss/bootstrap.scss";
 @import "@/assets/scss/style.scss";
-@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,400;0,500;0,700;1,300&display=swap");
-
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap");
 #app .container {
 	max-width: 1000px;
 	margin: auto;

@@ -99,7 +99,7 @@ export default {
 @import "@/assets/scss/_variables.scss";
 
 .background {
-	background-color: #f5f7fa;
+	background-color: #f8f8f8;
 }
 
 #tutoring {

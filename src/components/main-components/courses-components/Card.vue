@@ -40,6 +40,7 @@ export default {
 
 p {
 	color: $my-primary;
+	font-family: "Roboto", sans-serif;
 	font-size: 25px;
 	font-weight: bold;
 }
