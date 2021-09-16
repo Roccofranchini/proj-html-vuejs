@@ -3,6 +3,7 @@
 		<Jumbo />
 		<Courses />
 		<Tutoring />
+		<Learners />
 	</main>
 </template>
 
@@ -10,6 +11,7 @@
 import Jumbo from "./main-components/Jumbo.vue";
 import Courses from "./main-components/courses-components/Courses.vue";
 import Tutoring from "./main-components/Tutoring.vue";
+import Learners from "./main-components/learners-components/Learners.vue";
 
 export default {
 	name: "Main",
@@ -17,6 +19,7 @@ export default {
 		Jumbo,
 		Courses,
 		Tutoring,
+		Learners,
 	},
 };
 </script>
