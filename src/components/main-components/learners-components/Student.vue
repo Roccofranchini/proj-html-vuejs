@@ -1,6 +1,11 @@
 <template>
 	<div class="col-4">
-		<div id="student" class="p-5 mx-2">
+		<div
+			id="student"
+			class="p-5 mx-2"
+			:class="isActive(student.index)"
+			@click="$emit('change', index)"
+		>
 			<h5 class="my-blue student-title mb-3 pe-3">{{ student.title }}</h5>
 			<p class="my-gray student-text">{{ student.text }}</p>
 			<div class="row">
@@ -27,13 +32,23 @@
 <script>
 export default {
 	name: "Student",
-	props: ["student"],
+	props: ["student", "index"],
+	methods: {
+		isActive(index) {
+			return index === true ? "active" : "";
+		},
+	},
 };
 </script>
 
 <style scoped lang="scss">
 #student {
 	background-color: white;
+	opacity: 0.4;
+}
+
+#student.active {
+	opacity: 1;
 }
 
 .student-name {

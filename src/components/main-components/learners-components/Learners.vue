@@ -14,6 +14,8 @@
 					v-for="(student, index) in students"
 					:key="index"
 					:student="student"
+					:index="index"
+					@change="change"
 				/>
 			</div>
 		</div>
@@ -65,11 +67,105 @@ export default {
 		Student,
 		Stats,
 	},
+	methods: {
+		change(index) {
+			console.log(index);
+
+			if (index == 0) {
+				if (
+					!this.students[0].index &&
+					!this.students[1].index &&
+					this.students[2].index
+				) {
+					this.students[0].index = true;
+					this.students[1].index = false;
+					this.students[2].index = false;
+				}
+				if (
+					!this.students[0].index &&
+					this.students[1].index &&
+					!this.students[2].index
+				) {
+					this.students[0].index = true;
+					this.students[1].index = false;
+					this.students[2].index = false;
+				}
+				if (
+					this.students[0].index &&
+					!this.students[1].index &&
+					!this.students[2].index
+				) {
+					this.students[0].index = true;
+					this.students[1].index = false;
+					this.students[2].index = false;
+				}
+			}
+			if (index == 1) {
+				if (
+					!this.students[0].index &&
+					!this.students[1].index &&
+					this.students[2].index
+				) {
+					this.students[0].index = false;
+					this.students[1].index = true;
+					this.students[2].index = false;
+				}
+				if (
+					!this.students[0].index &&
+					this.students[1].index &&
+					!this.students[2].index
+				) {
+					this.students[0].index = false;
+					this.students[1].index = true;
+					this.students[2].index = false;
+				}
+				if (
+					this.students[0].index &&
+					!this.students[1].index &&
+					!this.students[2].index
+				) {
+					this.students[0].index = false;
+					this.students[1].index = true;
+					this.students[2].index = false;
+				}
+			}
+			if (index == 2) {
+				if (
+					!this.students[0].index &&
+					!this.students[1].index &&
+					this.students[2].index
+				) {
+					this.students[0].index = false;
+					this.students[1].index = false;
+					this.students[2].index = true;
+				}
+				if (
+					!this.students[0].index &&
+					this.students[1].index &&
+					!this.students[2].index
+				) {
+					this.students[0].index = false;
+					this.students[1].index = false;
+					this.students[2].index = true;
+				}
+				if (
+					this.students[0].index &&
+					!this.students[1].index &&
+					!this.students[2].index
+				) {
+					this.students[0].index = false;
+					this.students[1].index = false;
+					this.students[2].index = true;
+				}
+			}
+		},
+	},
 	data() {
 		return {
 			students: [
 				{
 					name: "FLORENCE  THEMES",
+					index: false,
 					profession: "Multimedia Admin",
 					img: "testimonial-avata-03",
 					title: "It's a choiche for people with a special needs",
@@ -78,6 +174,7 @@ export default {
 				},
 				{
 					name: "MINA  HOLLACE",
+					index: true,
 					profession: "Freelancer",
 					img: "testimonial-avata-02",
 					title: "High levels of inefficiency and scientific teaching methods",
@@ -86,6 +183,7 @@ export default {
 				},
 				{
 					name: "FLORENCE  THEMES",
+					index: false,
 					profession: "IT Specialist",
 					img: "testimonial-avata-04",
 					title:
