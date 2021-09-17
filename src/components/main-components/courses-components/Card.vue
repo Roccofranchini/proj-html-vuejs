@@ -1,6 +1,6 @@
 <template>
 	<div class="col-6">
-		<div class="single-card py-4">
+		<div class="single-card py-4 px-3">
 			<div class="row">
 				<div class="col-4">
 					<div class="cornice-img">
@@ -37,6 +37,10 @@ export default {
 
 <style scoped lang="scss">
 @import "@/assets/scss/_variables.scss";
+
+.single-card:hover {
+	background-color: white;
+}
 
 p {
 	color: $my-primary;
