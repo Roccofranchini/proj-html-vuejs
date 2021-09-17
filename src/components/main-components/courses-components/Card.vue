@@ -14,7 +14,7 @@
 					</div>
 				</div>
 				<div class="col-8">
-					<p class="mb-1">${{ this.course.price }}</p>
+					<p class="mb-1">{{ this.course.price }}</p>
 					<h6>{{ this.course.title }}</h6>
 					<span class="mx-2"
 						><i class="far fa-file-alt mx-1"></i>
