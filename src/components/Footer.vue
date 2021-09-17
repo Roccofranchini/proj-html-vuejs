@@ -3,7 +3,9 @@
 		<section id="top-footer" class="pb-5">
 			<div class="container my-5">
 				<div class="row">
-					<div class="col-2 d-flex align-items-center"></div>
+					<div class="col-2 d-flex align-items-end">
+						<div class="circle mb-5"></div>
+					</div>
 					<div class="col-8">
 						<div
 							class="subscribe-text px-5 d-flex flex-column align-items-center mt-5"
@@ -110,6 +112,10 @@ export default {
 @import "@/assets/scss/_variables.scss";
 
 #top-footer {
+	.circle {
+		border-color: $my-primary;
+	}
+
 	.subscribe-text {
 		p {
 			font-size: 14px;
@@ -129,7 +135,8 @@ export default {
 
 	.coach-circle {
 		position: absolute;
-		bottom: -30px;
+		bottom: 10px;
+		right: 5px;
 		width: 100px;
 	}
 }

@@ -19,9 +19,10 @@
 		</div>
 		<div class="container my-5">
 			<div class="row">
-				<div class="col-2 d-flex align-items-center">
+				<div class="col-2 d-flex flex-column justify-content-center">
+					<div class="circle ms-4"></div>
 					<img
-						class="py-5"
+						class="pt-3 ms-4 w-75"
 						src="./../../../assets/img/maxcoach-shape-01.png"
 						alt=""
 					/>
@@ -35,7 +36,7 @@
 								Online Certification</span
 							>
 						</p>
-						<h4 class="my-blue py-4">
+						<h4 class="my-blue pb-4">
 							You can be your own guidinig star whit our help!
 						</h4>
 						<button class="button-primary px-5">Get started now</button>
@@ -101,6 +102,12 @@ export default {
 <style scoped lang="scss">
 #learners {
 	background-color: #f8f8f8;
+
+	.circle {
+		width: 40px;
+		height: 40px;
+		border-color: #e6dcd2;
+	}
 
 	.certification-text {
 		p {

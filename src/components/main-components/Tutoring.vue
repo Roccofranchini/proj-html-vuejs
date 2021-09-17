@@ -49,6 +49,7 @@
 				<div class="row mb-5">
 					<div class="col-7 d-flex justify-content-end">
 						<div class="images">
+							<div class="circle"></div>
 							<img
 								class="img-fluid img-1"
 								src="../../assets/img/home-2-popup-video-poster.jpg"
@@ -59,10 +60,20 @@
 								src="../../assets/img/icon-youtube-play.png"
 								alt=""
 							/>
+							<img
+								class="img-3"
+								src="../../assets/img/maxcoach-shape-05-150x150.png"
+								alt=""
+							/>
+							<img
+								class="img-4"
+								src="../../assets/img/maxcoach-shape-07-150x150.png"
+								alt=""
+							/>
 						</div>
 					</div>
 					<div class="col-5">
-						<div class="text ms-4">
+						<div class="text ms-4 pt-4 mt-2">
 							<span class="subtitle my-gray"
 								>GET STARTED <span class="my-blue">EFFORTLESSLY</span></span
 							>
@@ -143,6 +154,8 @@ export default {
 		position: relative;
 		.img-1 {
 			max-height: 330px;
+			position: relative;
+			z-index: 1;
 		}
 		.img-2 {
 			position: absolute;
@@ -150,6 +163,27 @@ export default {
 			right: 50%;
 			transform: translate(50%, -50%);
 			height: 50px;
+			z-index: 2;
+		}
+		.img-3 {
+			position: absolute;
+			top: 40px;
+			left: -68px;
+			z-index: 0;
+		}
+		.img-4 {
+			position: absolute;
+			width: 120px;
+			bottom: -75px;
+			right: -10px;
+		}
+		.circle {
+			position: absolute;
+			top: -40px;
+			right: -90px;
+			height: 60px;
+			width: 60px;
+			border: 8px solid #ecc5ab;
 		}
 	}
 	.col-5 {

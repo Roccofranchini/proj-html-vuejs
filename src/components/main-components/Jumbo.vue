@@ -23,6 +23,7 @@
 				</div>
 				<div class="col-6 d-flex justify-content-center">
 					<div class="images">
+						<div class="circle"></div>
 						<img
 							class="rounded-circle"
 							src="../../assets/img/about-me-profile-ohm4dxoearqbxny7q3bq1pzbdgofdx0tobbeqcvzd0.jpg"
@@ -138,6 +139,12 @@ export default {
 			img {
 				height: 100px;
 			}
+		}
+
+		.circle {
+			position: absolute;
+			bottom: 100px;
+			left: -20px;
 		}
 
 		.img-3 {
