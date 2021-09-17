@@ -79,7 +79,7 @@
 								and mentoring portal. Seek for dome hidden hints of early-bird
 								rewards as well.
 							</p>
-							<span class="my-primary"
+							<span class="my-primary clickable"
 								>Download free guidebook
 								<i class="fas fa-long-arrow-alt-right"></i>
 								<hr class="my-gray"

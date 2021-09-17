@@ -1,7 +1,11 @@
 <template>
 	<footer>
+		<!-- TOP FOOTER -->
+
 		<section id="top-footer" class="pb-5">
 			<div class="container my-5">
+				<!-- SUBSCRIBE -->
+
 				<div class="row">
 					<div class="col-2 d-flex align-items-end">
 						<div class="circle mb-5"></div>
@@ -53,8 +57,11 @@
 			</div>
 		</section>
 		<section id="bottom-footer" class="pt-5">
+			<!-- BOTTOM FOOTER -->
+
 			<div class="container pt-5">
 				<div class="row">
+					<!-- CONTACTS -->
 					<div class="col-6 contacts">
 						<p>Address</p>
 						<ul class="ps-0">
@@ -68,28 +75,29 @@
 						><a href=""><i class="fab fa-linkedin"></i></a>
 					</div>
 					<div class="col-6 d-flex">
+						<!-- FOOTER MENU -->
 						<div class="col-3">
-							<p class="pt-2">Explore</p>
+							<p class="pt-2"><a href="">Explore</a></p>
 							<ul class="ps-0">
-								<li>Start here</li>
-								<li>Blog</li>
-								<li>About us</li>
+								<li><a href="">Start here</a></li>
+								<li><a href="">Blog</a></li>
+								<li><a href="">About us</a></li>
 							</ul>
 						</div>
 						<div class="col-3">
 							<ul class="ps-0 pt-5">
-								<li>Start here</li>
-								<li>Blog</li>
-								<li>About us</li>
+								<li><a href="">Succes story</a></li>
+								<li><a href="">Course</a></li>
+								<li><a href="">Contact us</a></li>
 							</ul>
 						</div>
 						<div class="col-3">
-							<p class="pt-2">Information</p>
+							<p class="pt-2"><a href="">Information</a></p>
 							<ul class="ps-0">
-								<li>Membership</li>
-								<li>Purchase guide</li>
-								<li>Privacy policy</li>
-								<li>Terms of services</li>
+								<li><a href="">Membership</a></li>
+								<li><a href="">Purchase guide</a></li>
+								<li><a href="">Privacy policy</a></li>
+								<li><a href="">Terms of services</a></li>
 							</ul>
 						</div>
 					</div>
@@ -151,6 +159,13 @@ export default {
 	p {
 		font-weight: 700;
 		font-size: 14px;
+		a {
+			text-decoration: none;
+			font-weight: 700;
+			font-size: 14px;
+			color: black;
+			padding: 0;
+		}
 	}
 
 	li {
@@ -158,6 +173,14 @@ export default {
 		font-weight: 600;
 		color: gray;
 		padding: 5px 0;
+
+		a {
+			text-decoration: none;
+			font-size: 12px;
+			font-weight: 600;
+			color: gray;
+			padding: 5px 0;
+		}
 	}
 
 	a {

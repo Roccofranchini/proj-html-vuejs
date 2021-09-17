@@ -16,7 +16,7 @@
 						</button>
 						<p>
 							Have questions?
-							<span
+							<span class="clickable"
 								>Get Free Sample <i class="fas fa-arrow-right"></i>
 								<hr
 							/></span>

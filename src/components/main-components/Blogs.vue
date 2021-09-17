@@ -3,6 +3,7 @@
 		<div class="container">
 			<div class="row gx-5">
 				<div class="col-4">
+					<!-- BLOGS TEXT -->
 					<div class="blogs-text d-flex flex-column">
 						<p class="subtitle my-gray">ENJOYABLE INSIGHTS</p>
 						<h4 class="title my-blue mb-4">
@@ -34,6 +35,8 @@
 						</ul>
 					</div>
 				</div>
+				<!-- BLOG CARDS -->
+
 				<div v-for="(blog, index) in blogs" :key="index" class="col-4">
 					<div class="card mx-o" style="width: 18rem;">
 						<img
@@ -84,6 +87,8 @@ export default {
 </script>
 
 <style scoped lang="scss">
+//SCSS
+
 #blogs {
 	background-color: #f5f1ed;
 	.blogs-text {

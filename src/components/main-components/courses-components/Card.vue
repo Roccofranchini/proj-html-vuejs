@@ -2,7 +2,7 @@
 	<!-- CARD STRUCTURE -->
 
 	<div class="col-6">
-		<div class="single-card py-4 px-3">
+		<div class="single-card py-4 px-3 clickable">
 			<div class="row">
 				<div class="col-4">
 					<div class="cornice-img">

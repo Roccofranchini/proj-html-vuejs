@@ -4,8 +4,8 @@
 
 		<div
 			id="student"
-			class="p-5 mx-2"
-			:class="isActive(student.index)"
+			class="p-5 mx-2 clickable"
+			:class="isActive(student.visible)"
 			@click="$emit('change', index)"
 		>
 			<h5 class="my-blue student-title mb-3 pe-3">{{ student.title }}</h5>
@@ -36,14 +36,18 @@ export default {
 	name: "Student",
 	props: ["student", "index"],
 	methods: {
-		isActive(index) {
-			return index === true ? "active" : "";
+		// ASSIGN ACTIVE CLASS TO THE VISIBLE CARD
+
+		isActive(visible) {
+			return visible === true ? "active" : "";
 		},
 	},
 };
 </script>
 
 <style scoped lang="scss">
+//SCSS
+
 #student {
 	background-color: white;
 	opacity: 0.4;

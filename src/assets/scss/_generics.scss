@@ -1,58 +1,13 @@
-// GENERICS
+// -----  GENERICS  -----
+
+//GENERAL FONT
+
 * {
 	font-family: "Raleway", sans-serif;
 }
+
+// LI STYLE
+
 li {
 	list-style-type: none;
-}
-
-.my-blue {
-	color: $my-blue;
-}
-
-.my-primary {
-	color: $my-primary;
-}
-
-.my-gray {
-	color: $my-gray;
-}
-
-.my-second-blue {
-	color: $my-second-blue;
-}
-
-.title {
-	font-weight: 700;
-
-	span {
-		font-weight: 500;
-	}
-}
-
-.circle {
-	height: 45px;
-	width: 45px;
-	border: 6px solid #ecc5ab;
-	border-radius: 50%;
-}
-
-.subtitle {
-	font-size: 11px;
-	font-weight: 500;
-	letter-spacing: 2px;
-}
-
-.button-primary {
-	border: 0;
-	font-size: 12px;
-	font-weight: 600;
-	color: white;
-	background-color: $my-primary;
-	border-radius: 5px;
-	padding: 12px 30px;
-}
-
-.button-primary:hover {
-	background-color: #3f3a64;
 }

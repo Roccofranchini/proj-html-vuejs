@@ -6,14 +6,14 @@
 					<!-- LOGO -->
 
 					<div class="col-3">
-						<img src="../assets/img/dark-logo.png" alt="" />
+						<img class="clickable" src="../assets/img/dark-logo.png" alt="" />
 					</div>
 					<!-- MENU' -->
 
 					<div class="col-6">
 						<ul class="d-flex justify-content-between m-0 py-0 px-3">
 							<li v-for="(link, index) in links" :key="index">
-								{{ link }} <i class="fas fa-angle-down"></i>
+								<a href="">{{ link }} <i class="fas fa-angle-down"></i></a>
 							</li>
 						</ul>
 					</div>
@@ -59,7 +59,16 @@ header {
 	li {
 		font-size: 13px;
 		font-weight: 500;
+		a {
+			text-decoration: none;
+			color: black;
+		}
 	}
+
+	li:hover {
+		transform: scale(1.1);
+	}
+
 	.searchbar {
 		position: relative;
 		input {

@@ -1,12 +1,68 @@
-.container {
-	max-width: 1200px;
-	margin: 0 auto;
+//MY COLORS -------
+
+.my-blue {
+	color: $my-blue;
 }
 
-.row {
-	display: flex;
+.my-primary {
+	color: $my-primary;
 }
 
-.col-50 {
-	width: 50%;
+.my-gray {
+	color: $my-gray;
+}
+
+.my-second-blue {
+	color: $my-second-blue;
+}
+
+// TITLE CONSTRUCTION
+
+.title {
+	font-weight: 700;
+
+	span {
+		font-weight: 500;
+	}
+}
+
+// SUBTITLE CONSTRUCTION
+
+.subtitle {
+	font-size: 11px;
+	font-weight: 500;
+	letter-spacing: 2px;
+}
+
+// CURSOR POINTER
+
+.clickable {
+	cursor: pointer;
+}
+
+// ROUND DIV
+
+.circle {
+	height: 45px;
+	width: 45px;
+	border: 6px solid #ecc5ab;
+	border-radius: 50%;
+}
+
+// BUTTON PRIMARY COLOR
+
+.button-primary {
+	border: 0;
+	font-size: 12px;
+	font-weight: 600;
+	color: white;
+	background-color: $my-primary;
+	border-radius: 5px;
+	padding: 12px 30px;
+}
+
+//BUTTON PRIMARY HOVER EFFECT
+
+.button-primary:hover {
+	background-color: #3f3a64;
 }

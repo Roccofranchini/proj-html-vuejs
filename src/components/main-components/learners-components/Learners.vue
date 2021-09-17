@@ -84,89 +84,89 @@ export default {
 
 			if (index == 0) {
 				if (
-					!this.students[0].index &&
-					!this.students[1].index &&
-					this.students[2].index
+					!this.students[0].visible &&
+					!this.students[1].visible &&
+					this.students[2].visible
 				) {
-					this.students[0].index = true;
-					this.students[1].index = false;
-					this.students[2].index = false;
+					this.students[0].visible = true;
+					this.students[1].visible = false;
+					this.students[2].visible = false;
 				}
 				if (
-					!this.students[0].index &&
-					this.students[1].index &&
-					!this.students[2].index
+					!this.students[0].visible &&
+					this.students[1].visible &&
+					!this.students[2].visible
 				) {
-					this.students[0].index = true;
-					this.students[1].index = false;
-					this.students[2].index = false;
+					this.students[0].visible = true;
+					this.students[1].visible = false;
+					this.students[2].visible = false;
 				}
 				if (
-					this.students[0].index &&
-					!this.students[1].index &&
-					!this.students[2].index
+					this.students[0].visible &&
+					!this.students[1].visible &&
+					!this.students[2].visible
 				) {
-					this.students[0].index = true;
-					this.students[1].index = false;
-					this.students[2].index = false;
+					this.students[0].visible = true;
+					this.students[1].visible = false;
+					this.students[2].visible = false;
 				}
 			}
 			if (index == 1) {
 				if (
-					!this.students[0].index &&
-					!this.students[1].index &&
-					this.students[2].index
+					!this.students[0].visible &&
+					!this.students[1].visible &&
+					this.students[2].visible
 				) {
-					this.students[0].index = false;
-					this.students[1].index = true;
-					this.students[2].index = false;
+					this.students[0].visible = false;
+					this.students[1].visible = true;
+					this.students[2].visible = false;
 				}
 				if (
-					!this.students[0].index &&
-					this.students[1].index &&
-					!this.students[2].index
+					!this.students[0].visible &&
+					this.students[1].visible &&
+					!this.students[2].visible
 				) {
-					this.students[0].index = false;
-					this.students[1].index = true;
-					this.students[2].index = false;
+					this.students[0].visible = false;
+					this.students[1].visible = true;
+					this.students[2].visible = false;
 				}
 				if (
-					this.students[0].index &&
-					!this.students[1].index &&
-					!this.students[2].index
+					this.students[0].visible &&
+					!this.students[1].visible &&
+					!this.students[2].visible
 				) {
-					this.students[0].index = false;
-					this.students[1].index = true;
-					this.students[2].index = false;
+					this.students[0].visible = false;
+					this.students[1].visible = true;
+					this.students[2].visible = false;
 				}
 			}
 			if (index == 2) {
 				if (
-					!this.students[0].index &&
-					!this.students[1].index &&
-					this.students[2].index
+					!this.students[0].visible &&
+					!this.students[1].visible &&
+					this.students[2].visible
 				) {
-					this.students[0].index = false;
-					this.students[1].index = false;
-					this.students[2].index = true;
+					this.students[0].visible = false;
+					this.students[1].visible = false;
+					this.students[2].visible = true;
 				}
 				if (
-					!this.students[0].index &&
-					this.students[1].index &&
-					!this.students[2].index
+					!this.students[0].visible &&
+					this.students[1].visible &&
+					!this.students[2].visible
 				) {
-					this.students[0].index = false;
-					this.students[1].index = false;
-					this.students[2].index = true;
+					this.students[0].visible = false;
+					this.students[1].visible = false;
+					this.students[2].visible = true;
 				}
 				if (
-					this.students[0].index &&
-					!this.students[1].index &&
-					!this.students[2].index
+					this.students[0].visible &&
+					!this.students[1].visible &&
+					!this.students[2].visible
 				) {
-					this.students[0].index = false;
-					this.students[1].index = false;
-					this.students[2].index = true;
+					this.students[0].visible = false;
+					this.students[1].visible = false;
+					this.students[2].visible = true;
 				}
 			}
 		},
@@ -176,7 +176,7 @@ export default {
 			students: [
 				{
 					name: "FLORENCE  THEMES",
-					index: false,
+					visible: false,
 					profession: "Multimedia Admin",
 					img: "testimonial-avata-03",
 					title: "It's a choiche for people with a special needs",
@@ -185,7 +185,7 @@ export default {
 				},
 				{
 					name: "MINA  HOLLACE",
-					index: true,
+					visible: true,
 					profession: "Freelancer",
 					img: "testimonial-avata-02",
 					title: "High levels of inefficiency and scientific teaching methods",
@@ -194,7 +194,7 @@ export default {
 				},
 				{
 					name: "FLORENCE  THEMES",
-					index: false,
+					visible: false,
 					profession: "IT Specialist",
 					img: "testimonial-avata-04",
 					title:
