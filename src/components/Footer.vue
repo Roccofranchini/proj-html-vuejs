@@ -97,6 +97,9 @@
 				<p class="text-center pt-5 pb-3 copyright">
 					@ 2020 Maxcoach. All Rights Reserved
 				</p>
+				<button class="button-primary">
+					<a href="#"><i class="fas fa-arrow-up"></i></a>
+				</button>
 			</div>
 		</section>
 	</footer>
@@ -143,6 +146,7 @@ export default {
 
 #bottom-footer {
 	background-color: #f8f8f8;
+	position: relative;
 
 	p {
 		font-weight: 700;
@@ -166,6 +170,23 @@ export default {
 		color: $my-gray;
 		font-size: 12px;
 		font-weight: 600;
+	}
+
+	button {
+		padding: 10px 10px;
+		border-radius: 50%;
+		position: absolute;
+		bottom: 20px;
+		right: 20px;
+		a {
+			color: white;
+			text-decoration: none;
+			transition: padding 1s;
+		}
+
+		a:hover {
+			padding: 13px 13px;
+		}
 	}
 }
 </style>
