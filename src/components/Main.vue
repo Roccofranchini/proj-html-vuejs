@@ -1,5 +1,7 @@
 <template>
 	<main class="mt-5">
+		<!-- MAIN STRUCTURE -->
+
 		<Jumbo />
 		<Courses />
 		<Tutoring />
@@ -9,6 +11,8 @@
 </template>
 
 <script>
+//IMPORT COMPONENTS
+
 import Jumbo from "./main-components/Jumbo.vue";
 import Courses from "./main-components/courses-components/Courses.vue";
 import Tutoring from "./main-components/Tutoring.vue";

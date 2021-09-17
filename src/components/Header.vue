@@ -3,9 +3,13 @@
 		<div id="nav" class="h-100">
 			<div class="container h-100">
 				<div class="row align-items-center h-100">
+					<!-- LOGO -->
+
 					<div class="col-3">
 						<img src="../assets/img/dark-logo.png" alt="" />
 					</div>
+					<!-- MENU' -->
+
 					<div class="col-6">
 						<ul class="d-flex justify-content-between m-0 py-0 px-3">
 							<li v-for="(link, index) in links" :key="index">
@@ -13,6 +17,8 @@
 							</li>
 						</ul>
 					</div>
+					<!-- SEARCHBAR -->
+
 					<div class="col-3 ">
 						<div class="searchbar">
 							<i class="far fa-user-circle pe-3"></i>
@@ -38,7 +44,10 @@ export default {
 </script>
 
 <style scoped lang="scss">
+//VARS
 @import "@/assets/scss/_variables.scss";
+
+//SCSS
 
 header {
 	height: 70px;

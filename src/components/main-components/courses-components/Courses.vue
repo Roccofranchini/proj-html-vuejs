@@ -1,11 +1,15 @@
 <template>
 	<section id="courses">
+		<!-- COURSES STRUCTURE -->
+
 		<div class="container">
 			<div class="text-center mb-5 pb-4">
 				<p class="my-gray courses-subtitle">STIMULATED TO LEARN?</p>
 				<h3 class="my-blue courses-title">Featured Online Courses</h3>
 			</div>
 			<div class="row gy-5">
+				<!-- CARD -->
+
 				<Card
 					v-for="(course, index) in courses"
 					:key="index"
@@ -24,6 +28,8 @@
 </template>
 
 <script>
+//IMPORT COMPONENTS
+
 import Card from "./Card.vue";
 
 export default {
@@ -83,7 +89,11 @@ export default {
 </script>
 
 <style scoped lang="scss">
+//VARS
+
 @import "@/assets/scss/_variables.scss";
+
+//SCSS
 
 #courses {
 	padding: 100px 0;

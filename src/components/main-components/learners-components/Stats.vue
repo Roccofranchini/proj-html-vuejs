@@ -1,7 +1,10 @@
 <template>
 	<section id="stats">
+		<!-- STATS STRUCTURE -->
+
 		<div class="container">
 			<div class="row">
+				<!-- SINGLE STAT V-FOR -->
 				<Stat v-for="(stat, index) in stats" :key="index" :stat="stat" />
 			</div>
 		</div>
@@ -9,6 +12,8 @@
 </template>
 
 <script>
+//IMPORT COMPONENTS
+
 import Stat from "./Stat.vue";
 
 export default {
@@ -46,6 +51,8 @@ export default {
 </script>
 
 <style scoped lang="scss">
+//SCSS
+
 #stats {
 	background-color: white;
 }

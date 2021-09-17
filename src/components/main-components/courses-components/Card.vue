@@ -1,4 +1,6 @@
 <template>
+	<!-- CARD STRUCTURE -->
+
 	<div class="col-6">
 		<div class="single-card py-4 px-3">
 			<div class="row">
@@ -36,7 +38,11 @@ export default {
 </script>
 
 <style scoped lang="scss">
+//VARS
+
 @import "@/assets/scss/_variables.scss";
+
+//SCSS
 
 .single-card:hover {
 	background-color: white;

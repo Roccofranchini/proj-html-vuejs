@@ -1,4 +1,5 @@
 <template>
+	<!-- SINGLE STAT STRUCTURE -->
 	<div class="col-3 border-start border-end">
 		<div class="d-flex flex-column text-center py-2">
 			<h6 class="my-blue px-5 mt-5">{{ stat.title }}</h6>
@@ -16,6 +17,8 @@ export default {
 </script>
 
 <style scoped lang="scss">
+//SCSS
+
 .col-3 {
 	h6 {
 		font-weight: 700;

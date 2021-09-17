@@ -2,6 +2,8 @@
 	<div id="jumbo">
 		<div class="container">
 			<div class="row">
+				<!-- JUMBOTRON TEXT -->
+
 				<div class="col-6 d-flex align-items-center">
 					<div class="jumbo-info px-2">
 						<h2 class="fs-1">Distant learning for further expansion</h2>
@@ -21,6 +23,8 @@
 						</p>
 					</div>
 				</div>
+				<!-- JUMBOTRON IMAGES -->
+
 				<div class="col-6 d-flex justify-content-center">
 					<div class="images">
 						<div class="circle"></div>
@@ -54,6 +58,8 @@
 					</div>
 				</div>
 			</div>
+			<!-- PARTNERS LOGOS -->
+
 			<div class="row my-5 partners-logo">
 				<div class="col-1"></div>
 				<div class="col d-flex align-items-center">
@@ -87,7 +93,11 @@ export default {
 </script>
 
 <style scoped lang="scss">
+//VARS
+
 @import "@/assets/scss/_variables.scss";
+
+//SCSS
 
 #jumbo {
 	.jumbo-info {

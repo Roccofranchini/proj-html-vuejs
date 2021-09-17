@@ -1,5 +1,7 @@
 <template>
 	<div class="col-4">
+		<!-- STUDENT STRUCTURE -->
+
 		<div
 			id="student"
 			class="p-5 mx-2"

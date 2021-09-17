@@ -1,7 +1,10 @@
 <template>
 	<div class="background pb-5">
 		<section id="tutoring" class="py-5">
+			<!-- TUTORING STRUCTURE -->
+
 			<div class="container">
+				<!-- TITLE -->
 				<div class="text-center my-5 pb-4">
 					<p class="my-gray tutoring-subtitle mb-2">
 						MAXCOACH AVAILABLE COURSES
@@ -11,6 +14,8 @@
 						Benefits.
 					</h3>
 				</div>
+				<!-- PROGRAM v-for -->
+
 				<div class="row my-5 pb-5 gx-5">
 					<div
 						v-for="(program, index) in programs"
@@ -18,18 +23,20 @@
 						class="col tutor-card"
 					>
 						<img :src="require(`../../assets/img/${program.img}.png`)" alt="" />
-						<h4 class="my-blue mt-4 mb-2">Customize Preferences</h4>
+						<h4 class="my-blue mt-4 mb-2">{{ program.title }}</h4>
 						<p class="my-gray">
-							Learners are given the rights to arrange and customize their study
-							schedule and timetable based on preferences.
+							{{ program.text }}
 						</p>
 						<span class="my-second-blue"
-							>Start here <i class="fas fa-long-arrow-alt-right"></i
+							><a href="">{{ program.link }}</a>
+							<i class="fas fa-long-arrow-alt-right"></i
 						></span>
 					</div>
 				</div>
 				<div class="row mb-5">
 					<div class="col-7 d-flex justify-content-end">
+						<!-- TUTORING IMAGES -->
+
 						<div class="images">
 							<div class="circle"></div>
 							<img
@@ -55,6 +62,8 @@
 						</div>
 					</div>
 					<div class="col-5">
+						<!-- TUTORING TEXT -->
+
 						<div class="text ms-4 pt-4 mt-2">
 							<span class="subtitle my-gray"
 								>GET STARTED <span class="my-blue">EFFORTLESSLY</span></span
@@ -117,7 +126,11 @@ export default {
 </script>
 
 <style scoped lang="scss">
+//VARS
+
 @import "@/assets/scss/_variables.scss";
+
+//SCSS
 
 .background {
 	background-color: #f8f8f8;
@@ -154,6 +167,10 @@ export default {
 		span {
 			font-weight: 700;
 			font-size: 12px;
+			a {
+				text-decoration: none;
+				color: $my-second-blue;
+			}
 		}
 	}
 }

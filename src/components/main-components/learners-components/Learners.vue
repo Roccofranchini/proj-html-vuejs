@@ -1,6 +1,8 @@
 <template>
 	<div id="learners" class="pt-5">
+		<!-- LEARNERS  STRUCTURE -->
 		<div class="text-center pb-4">
+			<!-- TITLE -->
 			<p class="my-gray subtitle mb-2">
 				GREAT WORDS ABOUT MAXCOACH
 			</p>
@@ -9,6 +11,7 @@
 			</h3>
 		</div>
 		<div class="fake-container mx-5">
+			<!-- STUDENTS -->
 			<div class="row g-5">
 				<Student
 					v-for="(student, index) in students"
@@ -20,6 +23,8 @@
 			</div>
 		</div>
 		<div class="container my-5">
+			<!-- GET STARTED -->
+
 			<div class="row">
 				<div class="col-2 d-flex flex-column justify-content-center">
 					<div class="circle ms-4"></div>
@@ -53,11 +58,15 @@
 				</div>
 			</div>
 		</div>
+		<!-- STATISTICS -->
+
 		<Stats />
 	</div>
 </template>
 
 <script>
+//IMPORT VARS
+
 import Student from "./Student.vue";
 import Stats from "./Stats.vue";
 
@@ -68,6 +77,8 @@ export default {
 		Stats,
 	},
 	methods: {
+		// CHANGE THE ACTIVE CARD [tofix]
+
 		change(index) {
 			console.log(index);
 
@@ -198,6 +209,8 @@ export default {
 </script>
 
 <style scoped lang="scss">
+//SCSS
+
 #learners {
 	background-color: #f8f8f8;
 
